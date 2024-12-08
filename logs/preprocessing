@@ -1,6 +1,13 @@
-2024-12-08 10:24:18,584 - custom_logs - INFO - Data preprocessing Started.
-2024-12-08 10:24:18,595 - custom_logs - INFO - Raw data loaded
-2024-12-08 10:24:18,606 - custom_logs - INFO - Data Split Started
-2024-12-08 10:24:18,610 - custom_logs - INFO - Split Done
-2024-12-08 10:24:18,610 - custom_logs - INFO - File Saving
-2024-12-08 10:24:18,639 - custom_logs - INFO - Data preprocessing completed successfully.
+2024-12-08 10:59:14,932 - custom_logs - INFO - Data preprocessing Started.
+2024-12-08 10:59:14,950 - custom_logs - INFO - Raw data loaded
+2024-12-08 10:59:14,951 - custom_logs - INFO - Data Split Started
+2024-12-08 10:59:14,955 - custom_logs - INFO - Split Done
+2024-12-08 10:59:14,956 - custom_logs - INFO - File Saving
+2024-12-08 10:59:15,012 - custom_logs - INFO - Train data saved to: data/processed/train.csv
+2024-12-08 10:59:15,013 - custom_logs - INFO - Test data saved to: data/processed/test.csv
+2024-12-08 10:59:15,013 - custom_logs - INFO - Data preprocessing completed successfully.
+2024-12-08 10:59:15,013 - custom_logs - INFO - Training Started
+2024-12-08 10:59:55,033 - custom_logs - INFO - Model: RandomForest, MSE: 31.70555757148741, R2: 0.8769561483196531
+2024-12-08 11:00:23,752 - custom_logs - INFO - Model: GradientBoosting, MSE: 19.547322867251683, R2: 0.9241401798343098
+2024-12-08 11:00:24,423 - custom_logs - INFO - Summary saved at: models/model_summary.csv
+2024-12-08 11:00:24,423 - custom_logs - INFO - Training Done

@@ -8,10 +8,10 @@ from sklearn.metrics import mean_squared_error, r2_score
 import joblib
 import dagshub
 from custom_logs import get_logger
-logger = get_logger("training.log")
+logger = get_logger("training")
 
-dagshub.init(repo_owner='Agam-Patel-DS', repo_name='kidney-disease-classification', mlflow=True)
-os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/Agam-Patel-DS/kidney-disease-classification.mlflow"
+dagshub.init(repo_owner='Agam-Patel-DS', repo_name='concrete-strength-prediction', mlflow=True)
+os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/Agam-Patel-DS/concrete-strength-prediction.mlflow"
 os.environ["MLFLOW_TRACKING_USERNAME"]="Agam-Patel-DS"
 os.environ["MLFLOW_TRACKING_PASSWORD"]="3d17a240490c70ca0d48f408ad47e0542b365a0a"
 

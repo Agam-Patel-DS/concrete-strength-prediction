@@ -38,4 +38,4 @@ class TrainingConfig:
         
         # MLflow logging configuration
         self.mlflow_tracking_uri = params["training"]["mlflow_tracking_uri"] # Replace with your DagsHub repo
-        self.mlflow_experiment_name = params["training"]["mlfow_experiment_name"]
+        self.mlflow_experiment_name = params["training"]["mlflow_experiment_name"]

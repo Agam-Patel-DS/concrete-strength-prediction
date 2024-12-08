@@ -8,5 +8,5 @@ training:
   train_data_path: data/processed/train.csv
   test_data_path: data/processed/test.csv
   output_model_path: models/
-  mlflow_tracking_uri: https://dagshub.com/<username>/<repo_name>.mlflow
-  mlflow_experiment_name: Regression Training
+  mlflow_tracking_uri: https://dagshub.com/Agam-Patel-DS/concrete-strength-prediction.mlflow
+  mlflow_experiment_name: Regression Training Second

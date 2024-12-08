@@ -36,8 +36,8 @@ class preprocessingPipeline:
       train_data.to_csv(train_csv_path, index=False)
       test_data.to_csv(test_csv_path, index=False)
 
-      print(f"Train data saved to: {train_csv_path}")
-      print(f"Test data saved to: {test_csv_path}")
+      logger.info(f"Train data saved to: {train_csv_path}")
+      logger.info(f"Test data saved to: {test_csv_path}")
   
   def run_pipeline(self):
 
