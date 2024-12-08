@@ -1,0 +1,6 @@
+2024-12-08 10:24:18,584 - custom_logs - INFO - Data preprocessing Started.
+2024-12-08 10:24:18,595 - custom_logs - INFO - Raw data loaded
+2024-12-08 10:24:18,606 - custom_logs - INFO - Data Split Started
+2024-12-08 10:24:18,610 - custom_logs - INFO - Split Done
+2024-12-08 10:24:18,610 - custom_logs - INFO - File Saving
+2024-12-08 10:24:18,639 - custom_logs - INFO - Data preprocessing completed successfully.

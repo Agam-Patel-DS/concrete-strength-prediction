@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ConcreteStrengthPrediction
+Version: 0.1
+Summary: A machine learning project to predict the compressive strength of concrete
+Author: Agam-Patel-DS
+Author-email: colabwithagam@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
